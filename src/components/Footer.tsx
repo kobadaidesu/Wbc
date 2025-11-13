@@ -55,9 +55,23 @@ export function Footer() {
           </div>
         </div>
 
+        {/* Disclaimer */}
+        <div className="border-t border-white/20 pt-8 mb-6">
+          <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-4 max-w-4xl mx-auto">
+            <p className="text-xs text-yellow-200 text-center mb-2">
+              ⚠️ 免責事項
+            </p>
+            <p className="text-xs opacity-75 text-center">
+              このサイトは<strong>非公式のファンサイト</strong>です。学習・ポートフォリオ目的で作成されました。
+              WBC、侍ジャパンおよび選手名などの商標は各権利者に帰属します。
+              公式情報は<a href="https://npb.jp" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#FFD700]">NPB公式サイト</a>をご確認ください。
+            </p>
+          </div>
+        </div>
+
         {/* Bottom */}
-        <div className="border-t border-white/20 pt-8 text-center text-sm opacity-75">
-          <p>&copy; 2025 SAMURAI JAPAN. All rights reserved.</p>
+        <div className="text-center text-sm opacity-75">
+          <p>&copy; 2025 非公式ファンサイト. このサイトは公式サイトではありません.</p>
         </div>
       </div>
     </footer>
